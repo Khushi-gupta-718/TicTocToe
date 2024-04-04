@@ -1,6 +1,3 @@
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -12,7 +9,7 @@ public class Main implements ActionListener {
     private boolean xTurn = true;
 
     public Main() {
-        frame = new JFrame("Tic-Tac-Toe Game");
+        frame = new JFrame("kattas - pittas Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         panel = new JPanel();
